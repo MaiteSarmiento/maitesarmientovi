@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('assets/quipu-econ.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 2em auto;
+  gap: 2em;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-img {
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 1em;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+/* Bio Section */
+.bio {
+  flex: 2;
+}
+
+.bio h2 {
+  margin-top: 1.5em;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 1.5em;
+  padding: 10px 20px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.cv-button:hover {
+  background-color: darkorange;
+}
